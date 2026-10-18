@@ -54,10 +54,6 @@ Sort and read interviews by company
 Track user performance via AI-based ratings  
 ![Leaderboard](./screenshots/leaderboard.png)
 
-### 🛠 Admin Panel  
-Moderate experience submissions, OA questions, and more  
-![Admin Panel](./screenshots/adminpanel.png)
-
 ---
 
 ## ⚙️ Tech Stack
@@ -74,7 +70,7 @@ Moderate experience submissions, OA questions, and more
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/ranveer193/InterviewPrep.git
+git clone
 cd InterviewPrep
 npm install
 npm start
