@@ -70,7 +70,7 @@ Track user performance via AI-based ratings
 ## 🚀 Getting Started
 
 ```bash
-git clone
+git clone https://github.com/samiksha117/interview_prep#-admin-panel
 cd InterviewPrep
 npm install
 npm start
