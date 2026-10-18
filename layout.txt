@@ -1,25 +1,37 @@
-backend/
-├── controllers/                    # Business logic
-│   └── Experience.js
-│   └── OAQuestions.js
-│   └── auth.js
+frontend/
+├── public/
 │
-├── routes/                         # Route handlers
-│   └── interview.js
-│   └── oa.js
-│   └── auth.js
+├── src/
+│   ├── assets/                      # Static files (images, logos, etc.)
+│   ├── components/                  # Reusable UI components
+│   │   └── ExperienceCard.jsx
+│   │   └── ExperienceForm.jsx
+│   │   └── FilterTabs.jsx
+│   │   └── Navbar.jsx
+│   │   └── HeroBanner.jsx
+│   │   └── Signup.jsx
+│   │   └── Login.jsx
+│   │
+│   ├── pages/                       # Route-level components
+│   │   └── Home.jsx
+│   │   └── Interview.jsx
+│   │   └── NotFound.jsx
+│   │   └── OAquestions.jsx
+│   │   └── AdminPanel.jsx
+│   │   └── SubmitExperience.jsx
+│   │
+│   ├── context/                       # Route-level components
+│   │   └── firebase.jsx
+|   |
+│   ├── constants/                       # Route-level components
+│   │   └── CompanyNames.jsx
+|   |
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css                    # Styling
 │
-├── models/                         # Mongoose models
-│   └── Experience.js
-│
-├── middleware/
-│
-├── config/
-│   └── db.js
-│
-├── uploads/                        # For OA PDFs/photos
-│
-├── .env                            # MongoDB URI, JWT secret  
-├── index.js                       # Start server + DB connection
+├── tailwind.config.js
+├── postcss.config.js
+├── .env                             # API endpoints, Firebase keys
 ├── package.json
-└── .gitignore
+└── vite.config.js
